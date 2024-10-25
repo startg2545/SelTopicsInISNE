@@ -1,0 +1,5 @@
+docker ps -a
+ls -l
+docker-compose -f todo-prod-mysql.yml up -d
+nano todo-prod-mysql.yml
+docker-compose -f todo-prod-mysql.yml down

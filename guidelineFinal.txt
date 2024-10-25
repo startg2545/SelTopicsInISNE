@@ -1,0 +1,152 @@
+1. Auto Scaling (AS) supports only alarm-based and scheduled bandwidth scaling policies.
+Answer: False
+Guild: Auto Scaling (AS) supports scheduled, periodic, and alarm scaling policies to help you confidently handle with any changes in workload	
+
+2. Elastic Cloud Servers (ECSs) with different OSs can not be associated with the same load balancer.
+Answer: False
+Guild: You can add two ECS instances that run different OSs to CLB instance.
+
+3. Users can request a VPC peering connection with a VPC of another account, the peer account must accept the request to activate the connection.
+Answer: True
+
+4. On HUAWEI CLOUD, a Scalable File Service (SFS) file system can be mounted to multiple cloud servers for use.
+Answer: True
+
+5. Log data on HUAWEI CLOUD is either automatically deleted upon expiration or manually deleted by administrators
+Answer: False
+Guild: No. Manual deletion is not supported. Logs are automatically deleted when their retention period (1 to 30 days) ends.
+
+6. As the IP SAN has an independent file system, the application server can read and write files after accessing the IP SAN through the network sharing protocal.
+Answer: False
+
+7. Cloud Trace Service (CTS) is a paid service. It charges for tracker creation, trace tracking, and storage and search of traces within seven days.
+Answer: False
+
+8. HUAWEI CLOUD SFS Turbo allows access from on-premises IDCs through Direct Connect, VPN, and Cloud Connect.
+Answer: True
+Guild: SFS Turbo allows on-premises IDCs to access using Direct Connect, VPN, or Cloud Connect.
+
+9. On Huawei Cloud , after an Elastic Cloud Server (ECS) is created, its flavor can be changed.
+Answer: True
+
+10. network bridges, Network bridges are responsible for route learning and packet forwarding.
+Answer: False
+
+11. Logs can be used for operation and maintenance of networks, servers, and services throughout their lifecycles.
+Answer: False
+
+12. HUAWEI CLOUD Content Delivery Network (CDN) accelerates intranet and internet resources.
+Answer: False
+13. To remotely connect to a Windows ECS using RDP, port 3389 must be enabled in the inbound direction of the security group.
+Answer: True
+14. Elastic Load Balance (ELB) automatically distributes incoming traffic across multiple backend servers to balance their load. it enables higher levels of security and expands capabilities of applications.
+Answer: False
+15. HUAWEI CLOUD Object Storage Service (OBS) has no limitations on storage capacity or the number of objects that can be stored.
+Answer: True
+16. HUAWEI CLOUD Elastic Cloud Servers (ECSs) can be migrated across accounts and regions.
+Answer: False
+17. 6000 requests are distributed to 10 Elastic Cloud Servers (ECSs) Through Elastic Load Balance (ELB). Each ECS processes 600 requests. if the customer uses the Auto Scaling (AS) service to add 10 more ECSs in the backend server group and there are still 6000 requests, each ECS needs to process 600 requests.
+Answer: False
+18. Relational Database Service (RDS) provides database backups. It automatically backs up data and uploads it to EVS disks every day.
+Answer: False
+19. On HUAWEI CLOUD, you can scale your capacity manually or automatically (using preset policies). You can scale in or out servers, or scale up or down a single server.
+Answer: True
+20. Users can configure security group rules to disable communications between two Elastic Cloud Servers (ECSs) in the same Virtual Private Cloud (VPC).
+Answer: True
+21. A user wants to change a service running on an Elastic Cloud Servers (ECS). This change requires the operating system (OS) of the ECS to be  changed. Which of the following statements is incorrect about the OS change?
+Answer: B. After a system disk is replaced, the snapshot data on the existing system disk will be lost.
+22. Trace files of Cloud Trace Service (CTS) can be transferred to Object Storage Service (OBS) buckets for cloud resource security analysis and troubleshooting in the future which of the following OBS storage classes is suitable for storing trace files?
+Answer: C. Standard
+23. Which of the following scenarios Elastic Volume Service (EVS) is not suitable for?
+Answer: C. Massive video and image storage
+24. Which of the following is not typical application scenarios of Auto Scaling (AS)?
+Answer: D. Image processing
+25. Cloud computing is a computing model that dynamically provides scalable and virtualized resources as services over the Internet. Which of the following statements about cloud computing is incorrect?
+Answer: D.Cloud Computing resources can be quickly provisioned and released, which reflects the on-demand self-service feature.
+26. How do you store multiple object versions on HUAWEI CLOUD object Storage Service (OBS)?
+Answer: A. Enable versioning
+27. On the same host, VM A can ping through VM B cannot ping through VM A. Which of the following my be the cause?
+Answer: C. Incorrect firewall configuration on VM A
+28. which of the following Elastic Volume Service (EVS) disk types is not used by Elastic Cloud Servers (ECSs)?
+Answer: D. Local I/O
+29. Which of the following Auto Scaling (AS) policies can be used to implement dynamic resource scaling?
+Answer: C. Alarm
+30. Which of the following is not major functions of Cloud Trace Service (CTS)?
+Answer: D. OS monitoring
+31. The cloud service purchased by a user contains only the running environment of applications. Which of the following modes does this scenario use?
+Answer: B. PaaS
+32. Which of the following statements is incorrect about HUAWEI CLOUD Scalable File Service (SFS)?
+Answer: D. SFS file systems cannot be used independently, and they must be mounted to cloud servers for use.
+33. What is the basis on which HUAWEI CLOUD regions are divided?
+Answer: A. Geographical location and network latency
+34. IAM users created by an administrator do not have default permissions. Which of the following statements about permissions is incorrect?
+Answer: D. FullAcess permissions provide read-only access to all service except IAM.
+35. if VM Tools is not installed on an Elastic Cloud Server (ECS), which pair of the following ECS metrics can be monitored by Cloud Eye?
+Answer: C. Outband Incoming Rate and Outband Outgoing Rate
+36. Which of the following is not a main function of HUAWEI CLOUD Web Application Firewall (WAF)?
+Answer: B. Defense against brute-force attacks on Elastic Cloud Servers (ECSs)
+37. Which of the following key performance metrics is not monitored for Relational Database Service (RDS) DB instances and DB engines?
+Answer: A. Network bandwidth
+38. Which of the following statements about log groups in Log Tank Service (LTS) is incorrect?
+Answer: A. A log group is the basic unit for reading and writing logs.
+39. Which of the following virtualization features can ensure that other VMs on the physical host are not affected, even if a VM on the physical host is faulty?
+Answer: B. Isolation
+40. Which of the following is not required by Virtual Private Cloud (VPC) for network isolation?
+Answer: D. Elastic IP (EIP)
+41. Each region of HUAWEI CLOUD corresponds to a project by default. A project is preset by the system and used to isolate resources between physical areas. Which of the following statements are correct about these projects?
+Answer: A. Sub-projects can be created within a project, increasing the accuracy of resource permission control.
+        D. The region's default project name cannot be changed
+42. Which of the following statements about CCE are correct?
+Answer: ABCD
+43. Which of the following are inclouded in the HUAWEI CLOUD security service system?
+Answer: ABCD
+44. Which of the following statements about cloud resource pooling are incorrect?
+Answer: B. Cloud resource pooling allows CPUs and disks to exist in the same resource pool.
+        C. Cloud resource pooling is the prerequisite for broad network access.
+        D. Cloud resource pooling is the prerequisite for virtualization technology.
+45. Which of the following are recommended security measures when you use Identity and Access Management (IAM)?
+Answer: A. Set a strong password policy on the IAM console.
+        B. Set a password validity period and periodically change your credentials.
+        C. Enable identity verfication by virtual multi-factor authentication (MFA) device.
+46. Which of the following can establish network connectivity between a Virtual Private Cloud (VPC) and an external network?
+Answer: A. Elastic IP (EIP)
+        B. NAT
+        C. VPN
+47. On HUAWEI CLOUD, what are possible reasons a file system may fail to be mounted?
+Answer: B. The file system has been deleted.
+        C. The shared path in the mount command is incorrect.
+        D. The DNS server used to access the file system is incorrect.
+48. Which of the following statements about Content Delivery Network (CDN) are incorrect?
+Answer: B. By deploying node servers across the network, origin server content can be distributed to spectific CDN nodes, enabling subscribers to obtain the highest-quality content.
+        C. CDN can improve the efficiency of cloud servers such as Elastic Cloud Servers (ECSs), but not response speed or website availability.
+49. Which of the following  are advantages of NAS compared with SAN?
+Answer: A. NAS has an independent file system.
+        B. NAS supports multiple protocols and operating systems.
+        D. NAS optimizes file sharing
+50. Which of the following services can be monitored by Cloud Eye?
+Answer: ABCD
+51. Which of the following can enable communications between an on-premises data center and a Virtual Private CLoud (VPC) on HUAWEI CLOUD?
+Answer: B. Direct Connect
+        D. Virtual Private Network (VPN)
+52. What are the scenarios where Object Storage Service (OBS) is used?
+Answer: ABCD
+53. Which of the following statements are incorrect about Elastic Volume Service (EVS) backup?
+Answer: A. EVS disks can be backed up while servers are stopping.
+        C. Backup data is stored on EVS disks.
+54. Which of the following statements are correct about the advantages of Auto Scaling (AS)?
+Answer: A. It scales resources dynamically.
+        B. It improves fault tolerance.
+        C. It enhances system security.
+55. Which of the following statements are correct about a public NAT gateway?
+Answer: B. Multiple rules of a NAT gateway can share the same EIP
+        C. To conserve resources, a source network address translation (SNAT) rule and a destination network address translation (DNAT) rule can share the same EIP.
+56. () records operations on Elastic Cloud Server (ECS), Object Storage Service (OBS), and Scalable File Service (SFS) for future query, quditing, and backtracking. (Fill in the abbreviation of a HUAWEI CLOUD service.)
+Answer: CTS
+57. Document Database Service (DDS) provides three deployment modes; cluster, replica set, and ().
+Answer: Single Node
+58. An enterprise has built a large-scale data center that spans multiple countries and cities. To achieve digital transformation, improve data center resource utilization, separate computing from data, share capabilities, shorten service rollout time, and enhance disaster tolerance capabilities, the enterprise decides to perform cloud-based reconstruction. In this case, the enterprise should preferentially select the () deployment mode.
+Answer: Hybrid Cloud
+59. HUAWEI CLOUD Object Storage Service (OBS) stores all data in buckets. if the policy of a bucket is set to (), other users have only read access for objects in the bucket.
+Answer: Public Read
+60. ()(network technology) can divide different network segments into differnet broadcast domains so that hosts on the same network segment can communicate with each other while those on different network segments cannot communicate with each other. (Enter the abbreviation)
+Answer: VLAN
